@@ -1,0 +1,159 @@
+
+
+
+body{
+
+    
+    
+    background-color: #000000;
+    color: #ffffff;
+   
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+   
+}
+.container::before{
+    content: "";
+    background:url(/background.jpg) no-repeat  center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+   
+    
+    }
+
+
+
+    
+
+.nav{
+   
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row nowrap;
+   
+   
+    
+}
+
+nav .netflixlogo{
+  
+    margin-top: 0.5px;
+    height: 80px;
+    display: flex;
+   
+}
+
+.login{
+    position: relative;
+  
+    padding: 3px 80px 20px;
+    width: 350px;
+    margin: 50px 300px;
+    align-items: center;
+    display: grid;
+    background: rgba(000, 000, 000, 0.75);
+    border-radius: 4px;
+    min-width: 300px;
+    height: 600px;
+   
+
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #fff;}
+
+    .login-elemnts {
+        position: relative;
+        z-index: 10;
+        display: flex;
+      }
+      .login-label {
+        position: absolute;
+        z-index: 150;
+        color: #b3b3b3;
+        font-size: 0.9rem;
+        top: 30px;
+        left: 18px;
+        transition: all 300ms ease-in;
+        will-change: transform;
+        top: 15px;
+        font-size: 0.7rem;
+      }
+      .login-input {
+        width: 100%;
+        position: relative;
+        z-index: 100;
+        background: #333;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        border: none;
+        opacity: 1;
+        font-size: 1rem;
+        color: #fff;
+        line-height: 50px;
+        padding: 12px 18px 0;
+        top: 15px;
+        font-size: 0.7rem;
+      }
+     
+      button {
+        width: 100%;
+        margin: 24px 0 12px;
+        padding: 16px;
+        color: #fff;
+        background: #e50914;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .remember {
+        position: relative;
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .re{
+        margin:50px 0;
+        opacity: 1;
+        font-size: 0.9rem;
+        color: #b3b3b3;
+        
+    
+      }
+      #me {
+        opacity: 1;
+        font-size: 0.9rem;
+        color: #b3b3b3;
+        text-decoration: none;
+        will-change: transform;
+      }
+      #help {
+        transition: all 0.3s ease-in;
+        opacity: 1;
+        font-size: 0.9rem;
+        color: #b3b3b3;
+        text-decoration: none;
+      }
+      #help:hover {
+        text-decoration: underline;
+      }
+      
+      ::-moz-placeholder {
+        font-size: 0.7rem;
+      }
+      
+      :-ms-input-placeholder {
+        font-size: 0.7rem;
+      }
+      
+      ::placeholder {
+        font-size: 0.7rem;
+      }
